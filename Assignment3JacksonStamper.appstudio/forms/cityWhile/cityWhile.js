@@ -41,4 +41,9 @@ while (doContinue) {
   i++
 }
 
-console.log(`${cities}`)
+let index = 0
+
+while (index < cities.length){
+  console.log(cities[index])
+  index++
+}

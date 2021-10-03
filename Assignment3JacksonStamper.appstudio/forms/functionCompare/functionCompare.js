@@ -29,4 +29,7 @@ let pass1 = prompt("Enter your password")
 let pass2 = prompt("Enter your password again")
 
 let message = Compare(pass1, pass2)
-console.log(`${message}`)
+if (message == "True")
+  console.log("The passwords are the same")
+else
+  console.log("The passwords are not the same")
