@@ -1,0 +1,43 @@
+/*
+Scenario: You want a program to get a city names from the user, store them, then output them back to the user. 
+Rename the first form 'cityWhile'.
+Use two while loops. 
+Get as many cities from the user as they want - stop getting cities when the user says to stop. 
+The user can use any case mixture in their input (eg. SAN FranciSCO)
+Cities go into an array named 'cities'.  
+When city input is done, use a while loop that outputs to the console each city on its' own line in all lower case, using a template literal.
+The output must be in this format:
+
+eg. say the user inputs "OmaHa" and "St. LOUIS"
+The output would look like this:
+
+omaha
+st. louis
+*/
+/*
+let cities = []
+
+
+while (cityAdd == true) {
+  let cityAdd = confirm("Would you like to add another city?")
+  let entry = prompt("What is your city name?")
+  cities.push({entry})
+}
+
+cities = cities.toLowerCase
+
+console.log(`${cities}`)
+*/
+let cities = []
+let i = 1
+
+let doContinue = confirm('Do you want to add another city? OK for Yes or Cancel for No')
+
+while (doContinue) {
+  entry = prompt('What is the name of the city?')
+  cities.push(entry.toLowerCase())
+  doContinue = confirm(`Do you want to continue? OK for Yes or Cancel for No`)
+  i++
+}
+
+console.log(`${cities}`)
