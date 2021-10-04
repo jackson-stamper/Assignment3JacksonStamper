@@ -15,21 +15,16 @@ OR
 The passwords are not the same
 */
 
+let password1 = prompt("Enter your password")
+let password2 = prompt("Enter your password again")
 function Compare(p1, p2) {
-  let successMessage = "True"
-  let failureMessage = "False"
-  result = p1.localecompare(p2)
-  if (result==0)
-    return successMessage
-  else
-    return failureMessage
-}
-
-let pass1 = prompt("Enter your password")
-let pass2 = prompt("Enter your password again")
-
-let message = Compare(pass1, pass2)
-if (message == "True")
-  console.log("The passwords are the same")
-else
-  console.log("The passwords are not the same")
+    return p1.localeCompare(p2)
+  };
+  
+  let result = compare(password1, password2)
+  
+  if (result == 0){
+    console.log('The passwords are the same.')
+  }else{
+    console.log('The passwords are not the same.')
+    };

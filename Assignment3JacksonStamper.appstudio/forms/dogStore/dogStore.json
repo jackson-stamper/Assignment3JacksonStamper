@@ -43,7 +43,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "lblHeader.json"
+        "Container1.json"
       ]
     },
     {
@@ -52,7 +52,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "lstItems.json"
+        "Container1Copy.json"
       ]
     },
     {
@@ -61,7 +61,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "lblPriceHeader.json"
+        "Container1CopyCopy.json"
       ]
     },
     {
@@ -70,7 +70,43 @@
         "forms",
         "dogStore",
         "Elements",
-        "lstPrice.json"
+        "Container1CopyCopyCopy.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dogStore",
+        "Elements",
+        "Container1CopyCopyCopyCopy.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dogStore",
+        "Elements",
+        "Container1CopyCopyCopyCopyCopy.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dogStore",
+        "Elements",
+        "Container1CopyCopyCopyCopyCopyCopy.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dogStore",
+        "Elements",
+        "Container1CopyCopyCopyCopyCopyCopyCopy.json"
       ]
     }
   ],

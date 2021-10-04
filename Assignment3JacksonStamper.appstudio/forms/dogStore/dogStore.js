@@ -27,15 +27,19 @@ Into the Wild Leash, $27.00
 */
 
 
-let itemList = ["Crocheted Dog Toy", "Slow Feeder Bowl", "Pawz Grey Treat Jar", "Blue Sweet Dream Thermal Pajamas", "Checker Chewy Vuiton Bowl", "Red Heart Sweater Dress", "Velvet Hair Bow - Sun Kissed", "Into the Wild Leash"]
-let itemPrice = [10.00, 14.00, 20.00, 30.00, 32.00, 27.00, 12.00, 27.00]
+let products = ['Crocheted Dog Toy $10',
+'Slow Feeder Bowl $14',
+'Pawz Grey Treat Jar $20',
+'Blue Sweet Dreams Thermal Pajamas $30',
+'Checker Chewy Vuiton Bowl $32',
+'Red Heart Sweater Dress',
+'Velvet Hair Bow - Sun Kissed $12',
+'Into the Wild Leash $27'];
+
 let wishList = []
 
-lstItems.value = itemList
-lstPrice.value = itemPrice
-
 btnSubmit.onclick=function(){
-  let anItem = inptItem.value
-  wishList.push(anItem)
-  txtWishList.value=wishList
-}
+    let i = inptItem.value
+    wishList.push(products[i])
+    txtWishList.value = wishList
+    }
